@@ -1,19 +1,22 @@
 <template>
-  <div class="MyList">{{message}}</div>
+  <div>
+    <div class="Home">{{message}}</div>
+    <router-link to="List">列表</router-link>
+  </div>
 </template>
 <script>
 /* eslint-disable */
 export default {
-  name: "List",
+  name: "Home",
   data() {
     return {
-      message: "List"
+      message: "Home"
     };
   }
 };
 </script>
 <style>
-.MyList {
+.Home {
   font-size: 50px;
 }
 </style>
