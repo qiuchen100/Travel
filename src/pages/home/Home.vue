@@ -1,14 +1,15 @@
 <template>
-  <div>{{message}}</div>
+  <div>
+    <home-header></home-header>
+  </div>
 </template>
 <script>
 /* eslint-disable */
+import HomeHeader from "./components/Header";
 export default {
   name: "Home",
-  data() {
-    return {
-      message: "hello, world!"
-    };
+  components: {
+    HomeHeader
   }
 };
 </script>
