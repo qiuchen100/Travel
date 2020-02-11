@@ -1,19 +1,16 @@
 <template>
-  <div class="MyList">{{message}}</div>
+  <div>{{message}}</div>
 </template>
 <script>
 /* eslint-disable */
 export default {
-  name: "List",
+  name: "Home",
   data() {
     return {
-      message: "List"
+      message: "hello, world!"
     };
   }
 };
 </script>
 <style>
-.MyList {
-  font-size: 50px;
-}
 </style>
