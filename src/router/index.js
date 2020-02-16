@@ -1,21 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import List from '@/components/List'
+import Home from '@/pages/home/Home'
 
 Vue.use(Router)
-
+/* eslint-disable */
 export default new Router({
-    routes: [
-        {
-            path: '/',
-            name: 'HelloWorld',
-            component: HelloWorld
-        },
-        {
-            path: '/List',
-            name: 'List',
-            component: List
-        }
-    ]
+  routes: [{
+    path: '/',
+    name: 'Home',
+    component: Home
+  }]
 })
