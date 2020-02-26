@@ -114,6 +114,7 @@ export default {
 }
 
 .icons {
+  margin-top: 0.1rem;
 }
 
 .icon {
