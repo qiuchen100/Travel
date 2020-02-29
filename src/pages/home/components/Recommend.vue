@@ -36,38 +36,38 @@ export default {
   display: flex;
   height: 1.9rem;
   overflow: hidden;
-}
 
-.item-img {
-  width: 1.7rem;
-  height: 1.7rem;
-  padding: 0.1rem;
-}
+  .item-img {
+    width: 1.7rem;
+    height: 1.7rem;
+    padding: 0.1rem;
+  }
 
-.item-info {
-  flex: 1;
-  padding: 0.1rem;
-  min-width: 0;
-}
+  .item-info {
+    flex: 1;
+    padding: 0.1rem;
+    min-width: 0;
 
-.item-title {
-  line-height: 0.54rem;
-  font-size: 0.32rem;
-  ellipsis();
-}
+    .item-title {
+      line-height: 0.54rem;
+      font-size: 0.32rem;
+      ellipsis();
+    }
 
-.item-desc {
-  line-height: 0.4rem;
-  color: #ccc;
-  ellipsis();
-}
+    .item-desc {
+      line-height: 0.4rem;
+      color: #ccc;
+      ellipsis();
+    }
 
-.item-button {
-  line-height: 0.44rem;
-  background: #ff9300;
-  padding: 0.2rem;
-  border-radius: 0.06rem;
-  margin-top: 0.16rem;
-  color: #fff;
+    .item-button {
+      line-height: 0.44rem;
+      background: #ff9300;
+      padding: 0 0.2rem;
+      border-radius: 0.06rem;
+      margin-top: 0.16rem;
+      color: #fff;
+    }
+  }
 }
 </style>
