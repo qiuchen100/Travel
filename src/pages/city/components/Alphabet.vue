@@ -1,21 +1,14 @@
 <template>
   <ul class="list">
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
-    <li class="item">A</li>
+    <li class="item" v-for="(partCities, key) of cities" :key="key">{{key}}</li>
   </ul>
 </template>
 <script>
 /* eslint-disable */
 export default {
+  props: {
+    cities: {}
+  },
   name: "CityAlphabet"
 };
 </script>
